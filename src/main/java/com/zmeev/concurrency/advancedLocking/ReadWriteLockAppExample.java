@@ -1,4 +1,4 @@
-package com.zmeev.concurrency;
+package com.zmeev.concurrency.advancedLocking;
 
 import java.util.ArrayList;
 import java.util.List;
