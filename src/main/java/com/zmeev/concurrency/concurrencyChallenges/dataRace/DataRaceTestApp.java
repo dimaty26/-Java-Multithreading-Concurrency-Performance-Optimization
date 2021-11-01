@@ -1,4 +1,4 @@
-package com.zmeev.concurrency.dataRace;
+package com.zmeev.concurrency.concurrencyChallenges.dataRace;
 
 public class DataRaceTestApp {
 

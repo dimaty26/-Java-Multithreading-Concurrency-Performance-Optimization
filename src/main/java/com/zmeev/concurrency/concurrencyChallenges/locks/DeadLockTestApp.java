@@ -1,4 +1,4 @@
-package com.zmeev.concurrency.locks;
+package com.zmeev.concurrency.concurrencyChallenges.locks;
 
 import java.util.Random;
 

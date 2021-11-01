@@ -1,6 +1,6 @@
-package com.zmeev.concurrency;
+package com.zmeev.concurrency.concurrencyChallenges;
 
-public class InventoryTestSolution {
+public class InventoryTestSolutionObjectBlock {
     public static void main(String[] args) throws InterruptedException {
         InventoryCounter inventoryCounter = new InventoryCounter();
         IncrementingThread incrementingThread = new IncrementingThread(inventoryCounter);
@@ -49,17 +49,24 @@ public class InventoryTestSolution {
 
     private static class InventoryCounter {
         private int items = 0;
+        Object lock = new Object();
 
-        public synchronized void increment() {
-            items++;
+        public void increment() {
+            synchronized (this.lock) {
+                items++;
+            }
         }
 
-        public synchronized void decrement() {
-            items--;
+        public void decrement() {
+            synchronized (this.lock) {
+                items--;
+            }
         }
 
-        public synchronized int getItems() {
-            return items;
+        public int getItems() {
+            synchronized (this.lock) {
+                return items;
+            }
         }
     }
 }

@@ -1,3 +1,5 @@
+package com.zmeev.concurrency.concurrencyChallenges;
+
 public class MinMaxMetrics {
 
     private volatile long minValue;
