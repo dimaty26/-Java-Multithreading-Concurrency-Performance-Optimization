@@ -1,4 +1,4 @@
-package com.zmeev.concurrency.httpserver;
+package com.zmeev.concurrency.perfOptimization.httpserver;
 
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;

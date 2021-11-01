@@ -1,4 +1,4 @@
-package com.zmeev.concurrency.argb;
+package com.zmeev.concurrency.perfOptimization.argb;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
