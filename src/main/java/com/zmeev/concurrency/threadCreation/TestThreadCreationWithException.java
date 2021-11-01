@@ -1,4 +1,4 @@
-package com.zmeev.concurrency;
+package com.zmeev.concurrency.threadCreation;
 
 public class TestThreadCreationWithException {
     public static void main(String[] args) {

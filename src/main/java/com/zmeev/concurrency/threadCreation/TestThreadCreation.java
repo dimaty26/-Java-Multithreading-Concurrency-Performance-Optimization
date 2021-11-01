@@ -1,4 +1,4 @@
-package com.zmeev.concurrency;
+package com.zmeev.concurrency.threadCreation;
 
 public class TestThreadCreation {
 

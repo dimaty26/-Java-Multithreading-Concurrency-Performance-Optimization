@@ -1,4 +1,4 @@
-package com.zmeev.concurrency;
+package com.zmeev.concurrency.threadCreation;
 
 import java.util.ArrayList;
 import java.util.List;
