@@ -1,4 +1,4 @@
-package com.zmeev.concurrency;
+package com.zmeev.concurrency.threadCoordination;
 
 public class TestTerminationThread {
     public static void main(String[] args) {

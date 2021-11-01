@@ -1,4 +1,4 @@
-package com.zmeev.concurrency.join;
+package com.zmeev.concurrency.threadCoordination.join;
 
 import java.math.BigInteger;
 import java.util.ArrayList;
