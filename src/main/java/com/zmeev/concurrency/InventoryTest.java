@@ -1,3 +1,5 @@
+package com.zmeev.concurrency;
+
 public class InventoryTest {
 
     public static void main(String[] args) throws InterruptedException {
